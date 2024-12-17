@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: "PT Sans", sans-serif;
+text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url("../img/img1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #3126208a;
+    border: 2px solid #45342a;
+    color: #000000 ;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    clip-path: polygon(49% 22%, 100% 0, 100% 51%, 100% 100%, 69% 100%, 0 100%, 0 77%, 0 53%, 0 0);
+    margin-top: -5rem;
+    background-color: #45342a;
+    color: #756457;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url("../img/img2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #bc8e687a;
+    border: 2px solid #bb5114b7;
+    color: #030303 ;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    background-color: #634024;
+    color: #b3a69d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url("../img/img3.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tutorials-image__text a {
+    background-color: #433f3291;
+    border: 2px solid #865d45b7;
+    color: #030303 ;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+
+.footer {
+    height: 250px;
+    background-color:#372c1c;
+    color:#ffffff;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+
+.footer ul li a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+
+.footer ul li:hover {
+    transform: scale(1.3);
+}
+
